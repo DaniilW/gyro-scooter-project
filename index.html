@@ -1,30 +1,24 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/js.css" type="text/css">
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
         <title>Гироскутер</title>
     </head>
+
     <body>
         <header class="header">
             <section class="header1">
-                <section class="container">
-                    <span class="number">
-                        Мы всегда рады помочь по телефону +7 923 398 9013
-                    </span>
-                    <button class="button">
-                        <a href="#">ЗАКАЗАТЬ ЗВОНОК</a>
-                    </button>
-                </section>
+                <div class="header1-block container">
+                    <span class="number"> Мы всегда рады помочь по телефону +7 923 398 9013 </span>
+                    <a class="button-number" href="#">ЗАКАЗАТЬ ЗВОНОК</a>
+                </div>
             </section>
             <section class="header2">
-                <section class="container">
-                    <span class="title">My-Gyro</span>
+                <section class="header-block container">
+                    <span class="title">My-Giro</span>
                     <nav class="nav">
                         <ul class="menu">
                             <li class="menu-items">
@@ -53,5 +47,120 @@
                 </section>
             </section>
         </header>
+        <div class="main">
+            <div class="main-items container">
+                <span class="main-title">My-giro</span>
+                <span class="main-counter"> Крупнейший интернет-мазагин гироскутеров, сигвеев и электросамокатов </span>
+                <span class="main-counter"> от известных мировых производителей </span>
+                <a href="#" class="menu-button">в каталог</a>
+            </div>
+        </div>
+        <!-- /.main -->
+        <div class="adv container">
+            <div class="adv-pages">
+                <span class="adv-title">Наши преимущества</span>
+                <div class="adv-block">
+                    <img src="img/pages-left.png" alt="" class="adv-icon" />
+                    <img src="img/pages-right.png" alt="" class="adv-icon" />
+                </div>
+            </div>
+            <div class="adv-blocks">
+                <div class="adv-block-images">
+                    <img src="img/100-kachestvo.png" alt="" class="adv-images" />
+                    <span class="adv-text-images">Гарантия качетсва</span>
+                </div>
+                <div class="adv-block-images">
+                    <img src="img/bistraya-dostavka.png" alt="" class="adv-images" />
+                    <span class="adv-text-images">Быстрая доставка</span>
+                </div>
+                <div class="adv-block-images">
+                    <img src="img/bolshoy-assortiment.png" alt="" class="adv-images" />
+                    <span class="adv-text-images">Большой ассортимент</span>
+                </div>
+                <div class="adv-block-images">
+                    <img src="img/consultant.png" alt="" class="adv-images" />
+                    <span class="adv-text-images">Онлайн-консультант</span>
+                </div>
+            </div>
+        </div>
+        <!-- /.adv -->
+
+        <div class="about container">
+            <span class="about-title">О нас</span>
+            <span class="about-text1"> В нашем интернет-мазагине представлен большой выбор гироскутеров, сигвеев и электросамакатов от известных мировых производителей. </span>
+            <span class="about-text2">
+                Все товары, представленные на нашем сайте, отобраны лучшими специалистами в этой области. Купить гироскутер, электросамокат или сигвей недорого. Вы можете в нашем
+                интернет-магазине в любое время, когда вам угодно, доставка заказов осуществляется бесплатно, в любую точку России.
+            </span>
+            <div class="about-container">
+                <div class="about-content container">
+                    <span class="content-text-about">Подпишитесь на рассылку и оставайтесь в курсе событий</span>
+                    <input type="text" class="a-input" name="name" placeholder="Имя" required minlength="4" maxlength="8" size="5" />
+                    <input type="text" class="a-input" placeholder="Email" name="email" />
+                    <a href="#" class="a-sub">Подписаться</a>
+                </div>
+            </div>
+        </div>
+        <!-- /.about -->
+
+        <div class="features container">
+            <span class="about-title">Особенности гироскутеров</span>
+            <div class="features-block">
+                <span class="features-btext"
+                    >- Трясёт<br />
+                    - Нет сиденья<br />
+                    - Только для одного</span
+                >
+                <span class="features-btext"
+                    >+ Исключительная компактность<br />
+                    + Небольшой вес<br />
+                    + Экономичность
+                </span>
+                <span class="features-btext"
+                    >+ Доступность<br />
+                    + Манёвренность<br />
+                    + Простой в освоении
+                </span>
+            </div>
+            <span class="features-text"
+                >Этих преимуществ гироскутера вполне достаточно для того, чтобы в своей нише данный вид транспорта являлся одним из самых лучших вариантов!</span
+            >
+        </div>
+        <!-- /.features -->
+
+        <div class="catalog">
+            <div class="catalog-menu container">
+                <span class="c-title">Каталог</span>
+                <nav class="c-nav">
+                    <span class="c-navigation-active">Всё</span>
+                    <span class="c-navigation">Гироскутер</span>
+                    <span class="c-navigation">Электросамокат</span>
+                    <span class="c-navigation">Сигвей</span>
+                </nav>
+            </div>
+            <div class="c-blocks container">
+                <div class="c-block-item">
+                    <img src="" alt="" class="c-image" />
+                    <span class="c-item-text"></span>
+                    <span class="c-buy"></span>
+                </div>
+                <div class="c-block-item">
+                    <img src="" alt="" class="c-image" />
+                    <span class="c-item-text"></span>
+                    <span class="c-buy"></span>
+                </div>
+                <div class="c-block-item">
+                    <img src="" alt="" class="c-image" />
+                    <span class="c-item-text"></span>
+                    <span class="c-buy"></span>
+                </div>
+                <div class="c-block-item">
+                    <img src="" alt="" class="c-image" />
+                    <span class="c-item-text"></span>
+                    <span class="c-buy"></span>
+                </div>
+            </div>
+        </div>
+        <!-- /.catalog -->
     </body>
 </html>
