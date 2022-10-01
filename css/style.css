@@ -10,6 +10,14 @@ body {
     padding: 0;
 }
 
+.c-menu {
+    display: none;
+}
+
+.m-menu {
+    display: none;
+}
+
 .container {
     max-width: 1170px;
     margin: auto;
@@ -131,7 +139,7 @@ body {
 }
 
 .adv-block {
-    margin-left: 790px;
+    margin-left: auto;
 }
 
 .adv-icon {
@@ -419,8 +427,8 @@ body {
     font-weight: bold;
     color: #9b9b9b;
     text-align: center;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-right: 35px;
+    margin-left: 35px;
 }
 
 .info {
@@ -521,4 +529,344 @@ body {
     display: block;
     padding-bottom: 20px;
     margin-top: 70px;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .adv-block-images {
+        margin-left: 0;
+    }
+
+    .content-text-about {
+        margin-right: 10px;
+    }
+
+    .features-btext {
+        margin-right: 80px;
+    }
+
+    .c-block-item {
+        height: 324px;
+    }
+
+    .c-image {
+        width: 193px;
+        height: 194px;
+    }
+
+    .c-item-text {
+        margin-top: 7px;
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .c-buy {
+        margin-top: 6px;
+        margin-left: 19px;
+        font-size: 16px;
+    }
+
+    .consult-item {
+        width: 163px;
+    }
+
+    .consult-button {
+        margin-left: 20px;
+        margin-right: 45px;
+    }
+
+    .consult-job {
+        margin-left: 20px;
+    }
+
+    .consult-name {
+        margin-left: 20px;
+    }
+
+    .sc-item {
+        font-size: 35px;
+        margin-right: 11px;
+        margin-left: 23px;
+    }
+
+    .footer-m-block {
+        margin-right: 71px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+
+    .title {
+        font-size: 21px;
+    }
+
+    .menu-items {
+        margin-left: 12px;
+    }
+
+    .adv-images {
+        width: 100px;
+        height: 100px;
+    }
+
+    .adv-text-images {
+        font-size: 14px;
+    }
+
+    .adv-block-images {
+        margin-right: -47px;
+    }
+
+    .content-text-about {
+        font-size: 13px;
+    }
+
+    .a-input {
+        height: 28px;
+    }
+
+    .a-sub {
+        padding: 5px;
+    }
+
+    .features-btext {
+        margin-right: 14px;
+    }
+
+    .c-block-item {
+        height: 288px;
+    }
+
+    .c-image {
+        width: 160px;
+        height: 160px;
+        margin-left: 7px;
+    }
+
+    .c-buy {
+        margin-left: 10px;
+    }
+
+    .c-item-text {
+        margin-left: 10px;
+    }
+
+    .c-name3 {
+        width: 77%;
+    }
+
+    .consult-img {
+        width: 121px;
+        height: 144px;
+    }
+
+    .consult-item {
+        width: 130px;
+        height: 145px;
+    }
+
+    .consult-button {
+        margin-right: 15px;
+        margin-left: 10px;
+    }
+    .consult-name {
+        margin-left: 10px;
+    }
+    .consult-job {
+        margin-left: 10px;
+    }
+
+    .sc-items {
+        height: 90px;
+    }
+
+    .sc-item {
+        font-size: 27px;
+    }
+
+    .info-block {
+        height: 198px;
+    }
+
+    .info-text {
+        margin-top: 65px;
+        font-size: 16px;
+    }
+
+    .footer-s-block {
+        flex-wrap: wrap;
+    }
+
+    .s-block {
+        margin-bottom: 10px;
+        margin-right: 20px;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 560px;
+    }
+
+    .menu {
+        position: absolute;
+        top: 85px;
+        padding: 20px;
+        margin-left: 20px;
+        flex-direction: column;
+        background-color: #e3e3e3;
+        z-index: 9;
+        border-radius: 10px;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(-100%);
+        transition: opacity 0.2s;
+    }
+
+    .menu-items:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    .is-open {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .m-menu {
+        display: block;
+        background-color: transparent;
+        border: none;
+        width: 20px;
+        height: 10px;
+        margin-left: 7px;
+        margin-top: 0px;
+        cursor: pointer;
+    }
+
+    .adv-blocks {
+        flex-wrap: wrap;
+    }
+
+    .a-input {
+        width: 100px;
+    }
+
+    .features-block {
+        flex-wrap: wrap;
+    }
+
+    .features-btext {
+        margin-bottom: 50px;
+    }
+
+    .c-nav {
+        display: none;
+    }
+
+    .c-menu {
+        display: block;
+        background-color: transparent;
+        border: none;
+        width: 20px;
+        height: 10px;
+        margin-top: 0px;
+        cursor: pointer;
+        margin-left: auto;
+    }
+
+    .c-nav {
+        display: flex;
+        position: absolute;
+        padding: 20px;
+        margin-left: auto;
+        flex-direction: column;
+        background-color: #e3e3e3;
+        z-index: 9;
+        opacity: 0;
+        visibility: hidden;
+        border-radius: 10px;
+        transition: opacity 0.2s;
+        right: 0;
+        margin-top: 150px;
+    }
+
+    .c-is-open {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .c-navigation {
+        margin: 0;
+        text-align: left;
+    }
+
+    .c-navigation-active {
+        margin: 0;
+        text-align: left;
+    }
+
+    .c-blocks {
+        flex-wrap: wrap;
+    }
+
+    .c-block-item {
+        width: 197px;
+        margin-right: auto;
+    }
+
+    .consult-items {
+        flex-wrap: wrap;
+    }
+    .consult-item {
+        margin-bottom: 20px;
+    }
+    .consult-img {
+        margin-bottom: 20px;
+    }
+
+    .info-blocks {
+        flex-wrap: wrap;
+    }
+
+    .info-block {
+        width: 173px;
+    }
+
+    .footer-blocks {
+        flex-wrap: wrap;
+    }
+    .footer-m-block {
+        margin-bottom: 50px;
+    }
+
+    .s-block {
+        margin-left: 0;
+    }
+
+    .about-content {
+        flex-wrap: wrap;
+    }
+    .footer-m-block {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 563px) {
+    .container {
+        max-width: 375px;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 355px;
+    }
 }

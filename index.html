@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/normalize.css" type="text/css" />
         <link rel="stylesheet" href="css/style.css" type="text/css" />
         <title>Гироскутер</title>
     </head>
@@ -20,6 +21,27 @@
                 <section class="header-block container">
                     <span class="title">My-Giro</span>
                     <nav class="nav">
+                        <button class="m-menu">
+                            <svg width="23" height="15" viewBox="0 0 23 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g filter="url(#filter0_d_25_161)">
+                                    <line x1="4" y1="0.5" x2="19" y2="0.5" stroke="black" />
+                                    <line x1="4" y1="3.5" x2="19" y2="3.5" stroke="black" />
+                                    <line x1="4" y1="6.5" x2="19" y2="6.5" stroke="black" />
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_25_161" x="0" y="0" width="23" height="15" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                        <feOffset dy="4" />
+                                        <feGaussianBlur stdDeviation="2" />
+                                        <feComposite in2="hardAlpha" operator="out" />
+                                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_25_161" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_25_161" result="shape" />
+                                    </filter>
+                                </defs>
+                            </svg>
+                        </button>
                         <ul class="menu">
                             <li class="menu-items">
                                 <a href="#theme1" class="menu-link">ПРЕИМУЩЕСТВО</a>
@@ -136,6 +158,27 @@
         <div class="catalog">
             <div class="catalog-menu container">
                 <span class="c-title">Каталог</span>
+                <button class="c-menu">
+                    <svg width="23" height="15" viewBox="0 0 23 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d_25_161)">
+                            <line x1="4" y1="0.5" x2="19" y2="0.5" stroke="black" />
+                            <line x1="4" y1="3.5" x2="19" y2="3.5" stroke="black" />
+                            <line x1="4" y1="6.5" x2="19" y2="6.5" stroke="black" />
+                        </g>
+                        <defs>
+                            <filter id="filter0_d_25_161" x="0" y="0" width="23" height="15" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                <feOffset dy="4" />
+                                <feGaussianBlur stdDeviation="2" />
+                                <feComposite in2="hardAlpha" operator="out" />
+                                <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_25_161" />
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_25_161" result="shape" />
+                            </filter>
+                        </defs>
+                    </svg>
+                </button>
                 <nav class="c-nav">
                     <a href="" class="c-navigation-active">Все</a>
                     <a href="" class="c-navigation">Гироскутер</a>
@@ -264,5 +307,7 @@
             <span class="company">Copyright © 2020 My-Giro</span>
         </footer>
         <!-- /.footer -->
+
+        <script src="js/script.js"></script>
     </body>
 </html>
