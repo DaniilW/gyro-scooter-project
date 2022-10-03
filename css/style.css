@@ -415,7 +415,7 @@ body {
 }
 
 .sc-items {
-    padding: 10px;
+    padding: 30px;
     background-color: #fbfbfb;
     display: flex;
     align-items: center;
@@ -425,7 +425,7 @@ body {
 
 .sc-item {
     display: block;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bold;
     color: #9b9b9b;
     text-align: center;
